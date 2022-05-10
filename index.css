@@ -1,7 +1,96 @@
+/* Items in this section are found on every page */
+/*----------------------------------------------------------*/
+
+#body {
+	background-color: #00FFFF;
+}
+
+#main_container {
+	width: 100%;
+	max-width: 769px;
+	margin: 2.75em auto 0 auto;
+}
+
 #navigationBar {
-	border-style:solid;
-	text-align:center;
-	margin:0;
-	padding:0;
-	background-color:black;
+	border-style: solid;
+	text-align: center;
+	margin: 0;
+	padding: 0;
+	font-family: helvetica;
+	text-decoration: none;
+	text-transform: uppercase;
+	background-color: grey;
+}
+
+#navigationBar a{
+	display: inline-block;
+	color: white;
+	font-family: Gill Sans;
+	font-size: 25px;
+	text-decoration: underline;
+	text-decoration-color: white;
+	text-transform: uppercase;
+	padding: 14px 16px;
+	text-align: center;
+}
+
+#navigationBar ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #333;
+}
+
+#navigationBar li{
+	float: center;
+	display: inline-block;
+	padding: 20px;
+}
+#navigationBar li:hover, li:active{
+	cursor: pointer;
+}
+
+.clearfix: after{
+	content: '';
+	display: table;
+	clear: both;
+}
+
+/* Items found here refer to index.html */
+/*----------------------------------------------------------*/
+
+#index {
+	flex-grow : 1;
+	text-align: center;
+}
+
+#index p{
+	font-size: 20px;
+}
+
+#index h1{
+	text-decoration: underline;
+}
+
+.gallery {
+	margin-left: 50px;
+	margin-right: 50px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding-left: 10px;
+	padding-right: 10px;
+	text-align: center;
+}
+
+.gallery img{
+	width: 50%;
+	height: 50%;
+	padding-top: 100px;
+	padding-left: 50px;
+	padding-right: 50px;
+	margin-left: 50px;
+	margin-right: 50px;
+	float: center;
+/*	border-style: solid; */
 }
