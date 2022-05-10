@@ -1,0 +1,7 @@
+/* CSS Page For photoGallery.html */
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+}
+
