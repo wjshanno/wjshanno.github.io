@@ -1,0 +1,240 @@
+/* Items in this section are found on every page */
+/*----------------------------------------------------------*/
+
+#body {
+	background: rgb(202, 255, 255);
+}
+
+#main_container {
+	width: 100%;
+	max-width: 769px;
+	margin: 2.75em auto 0 auto;
+}
+
+#navigationBar {
+	border-style: solid;
+	text-align: center;
+	margin: 0;
+	padding: 0;
+	font-family: helvetica;
+	text-decoration: none;
+	text-transform: uppercase;
+	background-color: grey;
+}
+
+#navigationBar a{
+	display: inline-block;
+	color: white;
+	font-family: Gill Sans;
+	font-size: 25px;
+	text-decoration: underline;
+	text-decoration-color: white;
+	text-transform: uppercase;
+	padding: 14px 16px;
+	text-align: center;
+}
+
+#navigationBar ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #333;
+}
+
+#navigationBar li{
+	float: center;
+	display: inline-block;
+	padding: 20px;
+}
+#navigationBar li:hover, li:active{
+	cursor: pointer;
+}
+
+.clearfix: after{
+	content: '';
+	display: table;
+	clear: both;
+}
+
+/* Items found here refer to index.html */
+/*----------------------------------------------------------*/
+
+#index {
+	flex-grow : 1;
+	text-align: center;
+}
+
+#index p{
+	font-size: 20px;
+}
+
+#index h1{
+	text-decoration: underline;
+}
+
+.gallery {
+	margin-left: 50px;
+	margin-right: 50px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding-left: 10px;
+	padding-right: 10px;
+	text-align: center;
+}
+
+.gallery img{
+	width: 60%;
+	height: 60%;
+	padding-top: 100px;
+	padding-left: 50px;
+	padding-right: 50px;
+	margin-left: 50px;
+	margin-right: 50px;
+	float: center;
+/*	border-style: solid; */
+}
+
+/* Items found here refer to resume.html */
+/*----------------------------------------------------------*/
+
+#resume {
+	text-align: left;
+	width: 90%;
+	font-family: helvetica;
+	text-decoration: none;
+	text-transform: uppercase;
+	border: 5px double black;
+	margin-right: 5px;
+	margin-left: 5px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+#resume h2{
+	color: none;
+	font-family: helvetica;
+	text-decoration: underline;
+	text-transform: uppercase;
+}
+
+#resumeLink p{
+	padding-left:50px;
+	color: none;
+	font-family: helvetica;
+	font-size: 18px;
+}
+
+#resumeLink a{
+	padding-left: 50px;
+	font-size: 22px;
+	font-style: bold;
+}
+
+#resumeFrame {
+	width: 60%;
+	height: 700px;
+}
+	
+#frame {
+	justify-content: center;
+	text-align: center;
+}
+
+
+/* Items found here refer to contact.html */
+/*----------------------------------------------------------*/
+
+#contactInfo p{
+	text-align: left;
+	margin-left: 5px;
+	font-size: 18px;
+	text-decoration: underline;
+}
+
+#contactInfo a{
+	text-align: left;
+	margin-left: 5px;
+	font-size: 18px;
+	color: blue;
+	font-family: Gill Sans;
+	text-decoration: underline;
+	text-transform: uppercase;
+}
+
+#contactInfo{
+	flex-grow: 1;
+	height: 350px;
+	width: 550px;
+	border-style: solid;
+	border-left: -50px;
+}
+
+#contactImage {
+	flex-grow: 1;
+	text-align: center;
+}
+
+#contactImage img{
+		width:450px;
+		height:350px;
+		border-style: solid;
+}
+
+
+/* Items found here refer to about.html */
+/*----------------------------------------------------------*/
+
+#aboutInfo {
+	flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+	margin-left: 25px;
+	margin-right: 25px;
+	border: solid;
+	border-color: black;
+	padding: 50px;
+	background-color: white;
+}
+
+#aboutInfo h1{
+	text-align: center;
+	text-decoration: underline;
+}
+
+#aboutInfo p{
+	font-size: 20px;
+	text-align: left;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+#mainBox {
+	height: 80vh;
+    width: 98vw;
+    display: flex;
+    flex-direction: column;
+}
+
+#mainBox2 {
+	padding: 0px;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: row;
+}
+
+#imageLeft {
+	flex-grow: 1;
+}
+
+#middleBox {
+	flex-grow: 1;
+	text-align: right;
+}
+
+#imageRight{
+	text-align: right;
+	flex-grow: 1;
+}
