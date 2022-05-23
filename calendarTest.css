@@ -1,3 +1,8 @@
+
+
+
+
+
 #calendar {
 	
 	
@@ -18,13 +23,13 @@
 	
 }
 
-#calendar tr{
+.calendar tr{
 	padding-bottom: 200px;
 	
 }
 
 
-#calendar td{
+.calendar td{
 	padding: 200px;
 	font-size: 40px;
 }
