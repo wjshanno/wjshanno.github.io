@@ -19,12 +19,12 @@
 }
 
 #calendar tr{
-	padding-bottom: 50 px;
+	padding-bottom: 200px;
 	
 }
 
 
 #calendar td{
-	padding: 50px;
-	font-size: 20;
+	padding: 200px;
+	font-size: 40px;
 }
