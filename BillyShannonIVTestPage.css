@@ -95,6 +95,21 @@
 /*	border-style: solid; */
 }
 
+#indexPanelGallery {
+	flex-grow: 1;
+	text-align: center;
+}
+
+#indexPanelGallery img{
+		width:450px;
+		height:350px;
+		border-style: solid;
+		float: center;
+		padding-left: 100px;
+		padding-right: 100px;
+}
+
+
 /* Items found here refer to resume.html */
 /*----------------------------------------------------------*/
 
@@ -170,16 +185,18 @@
 	border-left: -50px;
 }
 
-#contactImage {
+#contactPanelGallery {
 	flex-grow: 1;
 	text-align: center;
 }
 
-#contactImage img{
+#contactPanelGallery img{
 		width:450px;
 		height:350px;
 		border-style: solid;
 		float: center;
+		padding-left: 100px;
+		padding-right: 100px;
 }
 
 
@@ -238,4 +255,19 @@
 #imageRight{
 	text-align: right;
 	flex-grow: 1;
+}
+
+
+#aboutPanelGallery {
+	flex-grow: 1;
+	text-align: center;
+}
+
+#aboutPanelGallery img{
+		width:450px;
+		height:350px;
+		border-style: solid;
+		float: center;
+		padding-left: 100px;
+		padding-right: 100px;
 }
