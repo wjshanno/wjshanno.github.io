@@ -33,10 +33,12 @@ body {
 .month {
   max-width: 1120px;
   margin: 20px auto;
+  border-style: solid;
 }
  
 .week {
   height: 160px;
+  border-style: solid;
 }
  
 .day {
@@ -45,4 +47,5 @@ body {
   background-color: rgba(255, 255, 255, 0.7);
   box-shadow: -1px -1px #F9A440,  inset -1px -1px 0 0 #F9A440;
   text-align: center;
+  border-style: solid;
 }
