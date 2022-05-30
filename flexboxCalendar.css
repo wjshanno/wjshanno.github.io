@@ -21,7 +21,7 @@
  
 .day {
   -webkit-box-flex: 1;
-          flex-grow: 1;
+  flex-grow: 1;
   flex-shrink: 1;
   flex-basis: 0;
 }
@@ -62,12 +62,6 @@ body {
   box-shadow: -1px -1px white,  inset -1px -1px 0 0 white;
   text-align: center;
   text-decoration: underline
-}
-
-.day p{
-	color: black;
-	text-decoration: none;
-	
 }
 
 .event {
