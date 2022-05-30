@@ -67,5 +67,8 @@ body {
 .day p{
 	color: black;
 	text-decoration: none;
+	position: absolute;
+	bottom: 0;
+	left: 0;
 }
 
