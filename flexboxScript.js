@@ -1,5 +1,5 @@
 const name = document.querySelector(".name");
 
-function changeColor(blue) {
+function changeColor() {
 	name.style.color="blue";
 }
