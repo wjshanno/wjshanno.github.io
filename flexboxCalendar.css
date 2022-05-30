@@ -7,7 +7,7 @@
 #monthTitleBar{
 	display: block;
 	text-align: center;
-	font-size: 30;
+	font-size: 30px;
 	font-style: bold;
 	color: navy;
 }
