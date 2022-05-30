@@ -1,5 +1,6 @@
 #parent #popup {
 	display:none;
+	border-style: solid;
 }
 
 #parent:hover #popup {
