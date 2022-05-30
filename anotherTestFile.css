@@ -1,5 +1,5 @@
 #parent #popup {
-	display:none
+	display:none;
 }
 
 #parent:hover #popup {
