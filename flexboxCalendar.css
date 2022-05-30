@@ -15,53 +15,54 @@
 }
 
 .week {
-  display: -webkit-box;
-  display: flex;
+	display: -webkit-box;
+	display: flex;
 }
  
 .day {
-  -webkit-box-flex: 1;
-  flex-grow: 1;
-  flex-shrink: 1;
-  flex-basis: 0;
+	-webkit-box-flex: 1;
+	flex-grow: 1;
+	flex-shrink: 1;
+	flex-basis: 0;
 }
  
 .week:first-of-type .day:first-of-type {
-  margin-left: 42.85714%;
+	margin-left: 42.85714%;
 }
  
 .week:last-of-type .day:last-of-type {
-  margin-right: 14.285%;
+	margin-right: 14.285%;
 }
  
 /* OTHER STYLES */
 html, body {
-  height: 100%;
+	height: 100%;
 }
  
 body {
-  background-color: blue;
-  background-image: linear-gradient(62deg, #FBAB7E 0%, #F7CE68 100%);
-  background-attachment: fixed;
+	background-color: blue;
+	background-image: linear-gradient(62deg, #FBAB7E 0%, #F7CE68 100%);
+	background-attachment: fixed;
 }
  
 .month {
-  max-width: 1120px;
-  margin: 20px auto;
-  border-style: solid;
+	max-width: 1120px;
+	margin: 20px auto;
+	border-style: solid;
 }
  
 .week {
-  height: 160px;
+	height: 160px;
 }
  
 .day {
-  color: #F98909;
-  padding: 5px;
-  background-color: rgba(255, 255, 255, 0.7);
-  box-shadow: -1px -1px white,  inset -1px -1px 0 0 white;
-  text-align: center;
-  text-decoration: underline
+	position: relative;
+	color: #F98909;
+	padding: 5px;
+	background-color: rgba(255, 255, 255, 0.7);
+	box-shadow: -1px -1px white,  inset -1px -1px 0 0 white;
+	text-align: center;
+	text-decoration: underline;
 }
 
 .event {
