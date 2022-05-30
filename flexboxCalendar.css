@@ -44,6 +44,11 @@ body {
   color: #F98909;
   padding: 5px;
   background-color: rgba(255, 255, 255, 0.7);
-  box-shadow: -1px -1px #F9A440,  inset -1px -1px 0 0 #F9A440;
+  box-shadow: -1px -1px white,  inset -1px -1px 0 0 white;
   text-align: center;
+  text-decoration: underline
+}
+
+.day p{
+	color: black;
 }
