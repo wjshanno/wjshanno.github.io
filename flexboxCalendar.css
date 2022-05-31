@@ -7,11 +7,12 @@
 
 #monthTitleBar{
 	display: block;
-	text-align: center;
+	font-family: "Times New Roman", Times, serif;
 	font-style: normal;
 	font-weight: bold;
 	font-size: 30px;
 	color: navy;
+	text-align: center;
 }
 
 .week {
