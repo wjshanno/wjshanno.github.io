@@ -48,7 +48,7 @@ body {
 .month {
 	max-width: 1120px;
 	margin: 20px auto;
-	border-style: solid;
+	border-style: ridged; /*outset, inset, solid, dotted, etc.*/
 	border-width: 7px;
 }
  
