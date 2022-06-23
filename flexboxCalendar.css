@@ -15,13 +15,6 @@
 	text-align: center;
 }
 
-.class a:visited {
-	
-	text-decoration: none;
-	
-	color: orange;
-
-}
 
 .week {
 	display: -webkit-box;
@@ -75,6 +68,11 @@ body {
 	text-decoration: underline;
 }
 
+.day a:visited {
+	text-decoration: none;
+	color: orange;
+}
+
 .event {
 	position: absolute;
 	bottom: 50%;
@@ -82,7 +80,6 @@ body {
 }
 
 .date {
-	text-align: center;
-	
+	text-align: center;	
 }
 
